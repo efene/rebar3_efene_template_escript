@@ -1,0 +1,11 @@
+{description, "Complete escriptized application structure"}.
+{variables, [
+    {name, "myapp", "Name of the OTP application to be escriptized"},
+    {desc, "An escript", "Short description of the project"}
+]}.
+{template, "fn_escript_mod.fn", "{{name}}/src/{{name}}.fn"}.
+{template, "fn_escript_otp_lib.app.src", "{{name}}/src/{{name}}.app.src"}.
+{template, "fn_escript_rebar.config", "{{name}}/rebar.config"}.
+{template, "fn_escript_gitignore", "{{name}}/.gitignore"}.
+{template, "fn_escript_LICENSE", "{{name}}/LICENSE"}.
+{template, "fn_escript_README.rst", "{{name}}/README.rst"}.
